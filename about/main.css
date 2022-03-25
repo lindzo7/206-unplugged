@@ -89,6 +89,7 @@ textarea {
 
    /*----------Base Header - Footer Styles -----------*/
 
+
    header,
    footer {
      display: flex;
@@ -134,45 +135,23 @@ textarea {
     align-items: center;
 
    }
+   
 
-   /*---------- Mobile Styles - Homepage -----------*/
-
-   .hero-area {
-     display: flex;
-     justify-content: center;
-     flex-flow: row wrap;
-
-   }
-
-   aside {
-     display: flex;
-     justify-content: center;
-     flex-flow: row wrap;
-
-   }
-
-   .features {
-     display: flex;
-     justify-content: center;
-     flex-flow: row wrap;
-     
-   }
-
-   .features .features-items {
+   /*---------- Mobile Styles - About Page-----------*/
+   
+   .mission {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
    }
 
-   .reviews {
-     display: flex;
-     justify-content: center;
-     flex-flow: row wrap;
+   .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
-
-
-
 
 
 
