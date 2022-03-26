@@ -86,7 +86,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+   .content-wrapper {
+    width: 88%;
+    margin: 50px 0;
+  }
    /*----------Base Header - Footer Styles -----------*/
 
    header,
@@ -98,12 +101,24 @@ textarea {
        
    }
 
+   header {
+     padding: 15px 0;
+   }
+
+   .header-divider {
+     width: 100%; 
+     height: 1px;
+     padding: 10px 0 20px 0;
+
+   }
+
 
    header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
      
   }
 
@@ -112,14 +127,20 @@ textarea {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%; 
     
   }
 
    header nav ul {
     display: flex;
     justify-content: space-around;
-    
-   }
+    width: 100%;
+  
+  }
+
+  footer {
+    flex-direction: column;
+  }
 
 
    footer .social-icons {
@@ -135,18 +156,33 @@ textarea {
 
    }
 
+   footer .contact {
+     margin-bottom: 50px 0;
+   }
+
+   footer .content-wrapper {
+     width: 55%;
+     margin: 50px 0;
+   }
+
+   footer p {
+     margin: 0;
+   }
+
+   
+
    /*---------- Mobile Styles - Homepage -----------*/
 
    .hero-area {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
-
    }
 
    aside {
      display: flex;
      justify-content: center;
+     align-items: center;
      flex-flow: row wrap;
 
    }
@@ -156,6 +192,21 @@ textarea {
      justify-content: center;
      flex-flow: row wrap;
      
+   }
+
+   .features h2 {
+     margin-bottom: 55px;
+
+
+   }
+
+   .features article {
+     width: 60%;
+     margin: 30px 0;
+   }
+
+   .features p {
+     margin: 0;
    }
 
    .features .features-items {
@@ -169,6 +220,15 @@ textarea {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+   }
+
+   .reviews h2 {
+     margin-bottom: 40px;
+   }
+
+   .reviews h3 {
+     width: 50%;
+     margin: 22px 0;
    }
 
 
